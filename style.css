@@ -5,28 +5,31 @@ body {
 
 }
 /************************** MENU *****************************/
-#top-menu .navbar-default {
+header .navbar-default {
     background-color: #f8f8f8;
 	background-image: url("images/line.gif");
 	background-position: 0 -43px;
     background-repeat: repeat-x;
     border-color: #000;
 }
-#top-menu .navbar-default .navbar-nav > li > a {
+header .navbar-default > .container-fluid{
+	margin:0 10px;
+}
+header .navbar-default .navbar-nav > li > a {
 	line-height: 30px;
 	padding-top: 10px;
 	padding-bottom: 10px;
     color: #fff;
 }
 @media (max-width: 767px) {
-	#top-menu .navbar-default .navbar-nav{
+	header .navbar-default .navbar-nav{
 		background: #f8f8f8;
 	}
 }
-#top-menu .glyphicon {
+header .glyphicon {
 	font-size: 20px;
 }
-#top-menu .navbar-brand{
+header .navbar-brand{
 	background-image: url("images/logo.png");
     height: 39px;
     margin: 5px 0;
@@ -44,11 +47,7 @@ body {
     border-image: none;
     border-style: solid;
     border-width: 0 1px 1px;
-    margin: 0 -15px;
-    padding: 10px 0;
-}
-#page-wrapper {
-    margin: 0 15px;
+    padding-top: 10px;
 }
 
 .badge-success, .badge-status-1,.badge-status-y{
@@ -65,4 +64,7 @@ footer {
     color: #336699;
     font-size: 11px;
 	padding-top: 15px;
+}
+footer .powered{
+	width: 160px;
 }
