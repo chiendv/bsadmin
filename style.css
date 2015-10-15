@@ -26,6 +26,15 @@ body {
 #top-menu .glyphicon {
 	font-size: 20px;
 }
+#top-menu .navbar-brand{
+	background-image: url("images/logo.png");
+    height: 39px;
+    margin: 5px 0;
+    width: 39px;
+}
+.navbar-hover .dropdown:hover .dropdown-menu {
+	display: block;
+}
 /************************** MAIN BODY *****************************/
 #main-wrapper {
 	background-color: #fff;
@@ -40,6 +49,15 @@ body {
 }
 #page-wrapper {
     margin: 0 15px;
+}
+
+.badge-success, .badge-status-1,.badge-status-y{
+	font-weight:normal;
+	background-color: #5cb85c;
+}
+.badge-warning,.badge-status-0,.badge-status-n{
+	font-weight:normal;
+	background-color: #f0ad4e;
 }
 /************************** FOOTER *****************************/
 footer {
