@@ -1,0 +1,37 @@
+{
+  "name": "bsadmin",
+  "authors": [
+    "chiendv <duongvanchien@gmail.com>"
+  ],
+  "description": "Bootstrap extented for admin on projects by Chiendv",
+  "main": "style.css script.js",
+  "dependencies": {
+    "jquery": ">= 1.9.1",
+    "bootstrap": ">= 3.3.5"
+  },
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "chiendv"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/chiendv/bsadmin",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "58f55d84bd",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "58f55d84bd7cb88df85b8241df3d1641ef8b7726"
+  },
+  "_source": "git://github.com/chiendv/bsadmin.git",
+  "_target": "*",
+  "_originalSource": "chiendv-bsadmin",
+  "_direct": true
+}
