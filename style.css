@@ -12,9 +12,10 @@ header .navbar-default {
     background-repeat: repeat-x;
     border-color: #000;
 }
+/*
 header .navbar-default > .container-fluid{
 	margin:0 10px;
-}
+}*/
 header .navbar-default .navbar-nav > li > a {
 	line-height: 30px;
 	padding-top: 10px;
@@ -22,8 +23,8 @@ header .navbar-default .navbar-nav > li > a {
     color: #fff;
 }
 @media (max-width: 767px) {
-	header .navbar-default .navbar-nav{
-		background: #f8f8f8;
+	header .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	    background-color: #01549A;
 	}
 }
 header .glyphicon {
@@ -32,11 +33,37 @@ header .glyphicon {
 header .navbar-brand{
 	background-image: url("images/logo.png");
     height: 39px;
-    margin: 5px 0;
+    margin:5px 10px !important;
     width: 39px;
 }
-.navbar-hover .dropdown:hover .dropdown-menu {
+header .navbar-default .navbar-nav > .active > a, header .navbar-default .navbar-nav > .active > a:focus, header .navbar-default .navbar-nav > .active > a:hover {
+ 	background-color: #cee5ee;
+    background-image: url("images/line.gif");
+    background-position: 0 -100px;
+}
+header .navbar-default .navbar-nav > li > a:focus, header .navbar-default .navbar-nav > li > a:hover {
+ 	background-color: #cee5ee;
+    background-image: url("images/line.gif");
+    background-position: 0 -100px;
+}
+@media (max-width: 767px) {
+	
+	header .navbar-default .navbar-nav > .active > a, header .navbar-default .navbar-nav > .active > a:focus, header .navbar-default .navbar-nav > .active > a:hover {
+		background-image: none;
+	 	background-color: #fff;
+	}
+	header .navbar-default .navbar-nav > li > a:focus, header .navbar-default .navbar-nav > li > a:hover {
+		background-image: none;
+		background-color: #fff;
+	}
+}
+header .navbar-hover .dropdown:hover .dropdown-menu {
 	display: block;
+}
+@media (min-width: 768px) and (max-width: 992px){
+	header .nav > li > a {
+		padding: 10px 5px
+	}
 }
 /************************** MAIN BODY *****************************/
 #main-wrapper {
