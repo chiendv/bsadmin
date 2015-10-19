@@ -1,6 +1,6 @@
 {
   "name": "bsadmin",
-  "version": "0.0.0",
+  "version": "0.5.0",
   "authors": [
     "chiendv <duongvanchien@gmail.com>"
   ],
@@ -8,7 +8,8 @@
   "main": "style.css script.js",
   "dependencies": {
     "jquery": ">= 1.9.1",
-    "bootstrap": ">= 3.3.5"
+    "bootstrap": ">= 3.3.5",
+    "typeahead.js": "*"
   },
   "moduleType": [
     "globals"
