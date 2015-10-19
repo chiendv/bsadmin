@@ -10,7 +10,8 @@
     "jquery": ">= 1.9.1",
     "bootstrap": ">= 3.3.5",
     "typeahead.js": "*",
-    "remarkable-bootstrap-notify": "~3.1.3"
+    "remarkable-bootstrap-notify": "~3.1.3",
+    "animate.css": "git@github.com:daneden/animate.css.git#~3.4.0"
   },
   "moduleType": [
     "globals"
