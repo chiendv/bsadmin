@@ -86,6 +86,19 @@ header .navbar-hover .dropdown:hover .dropdown-menu {
 	font-weight:normal;
 	background-color: #f0ad4e;
 }
+.money {
+	color: #FF4500;
+	font-weight:bold
+}
+.money.money-vnd:after {
+	 content: "đ";
+	 vertical-align: super;
+	 padding-left:1px;
+}
+.money.money-usd:before {
+	 content: "$";
+	 padding-right:1px;
+}
 /************************** FOOTER *****************************/
 footer {
     background: rgba(0, 0, 0, 0) url("images/footer.png") no-repeat scroll center top;
