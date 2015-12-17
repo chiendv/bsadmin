@@ -90,14 +90,16 @@ header .navbar-hover .dropdown:hover .dropdown-menu {
 	color: #FF4500;
 	font-weight:bold
 }
-.money.money-vnd:after {
-	 content: "đ";
-	 vertical-align: super;
-	 padding-left:1px;
+.money.money-vnd:after  {
+	content: "đ";
+	vertical-align: super;
+	padding-left: 1px;
+	font-weight: normal;
 }
-.money.money-usd:before {
-	 content: "$";
-	 padding-right:1px;
+.money.money-usd:before  {
+	content: "$";
+	padding-right: 1px;
+	font-weight: normal;
 }
 /************************** FOOTER *****************************/
 footer {
